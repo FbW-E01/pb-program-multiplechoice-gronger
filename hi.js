@@ -19,6 +19,9 @@ const color = "yellow";
         case "yellow":
             console.log("You have been assigned the colour yellow!")
         break;
+        default:
+            console.log("You have not being assigned a colour. Please try again");
+        break;
     }
 
 // #### 2. Grading
@@ -42,6 +45,9 @@ const grade = "D";
         case "D":
             console.log("YOu have passed the assignment.");
         break;
+        default:
+            console.log("Your assignment has not been graded yet. Please check back at a later date");
+        break;
     }
 
 // #### 3. Fruits
@@ -61,6 +67,9 @@ fruits = "apple";
         break;
         case "apple":
             console.log("Thank you for keeping the doctor away");
+        break;
+        default:
+            console.log("Fruit is good");
         break;
     }
 
